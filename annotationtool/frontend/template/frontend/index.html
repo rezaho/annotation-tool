@@ -1,0 +1,10 @@
+{% extends 'basic.html' %}
+{% load static %}
+
+{% block css_links %}
+    href="{% static 'css/index.css' %}"
+{% endblock css_links %}
+
+{% block js_links %}
+    <script src="{% static 'frontend/main.js' %}"></script>
+{% endblock %}
